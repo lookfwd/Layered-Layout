@@ -156,7 +156,7 @@ public class LayeredLayout implements Layout {
              */
             double currentAngle = 0;
             // steady positioning on orbit
-            double shift = 360 / length;
+            double shift = 360. / length;
             int i = 0;
             for (Node o : currentOrbit) {
                 // next position on the orbit
