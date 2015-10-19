@@ -184,9 +184,9 @@ public class LayeredLayout implements Layout {
 
         } else {
 
-            int currentAngle = 0;
+            double currentAngle = 0;
             // steady positioning on orbit
-            int shift = 360 / currentOrbit.size();
+            double shift = 360. / currentOrbit.size();
             for (Node o : currentOrbit) {
                 // equation of circle
                 // x = x0 + r*cos(a)
